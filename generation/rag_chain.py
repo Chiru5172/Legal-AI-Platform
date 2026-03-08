@@ -35,7 +35,8 @@ def load_llm():
         model=model,
         tokenizer=tokenizer,
         max_length=512,
-        temperature=0.1
+        temperature=0.1,
+        return_full_text=False
     )
 
     return HuggingFacePipeline(
@@ -77,7 +78,10 @@ def run_legal_rag(
         question=question
     )
 
-    answer = llm.invoke(prompt)
+    result = llm.invoke(prompt)
+
+    # Remove prompt from response
+    answer = result.replace(prompt, "").strip()
 
     return {
         "question": question,
