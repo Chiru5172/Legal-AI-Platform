@@ -1,0 +1,8 @@
+[theme]
+base = "light"
+
+primaryColor = "#1E3A8A"            # Professional legal blue
+backgroundColor = "#F9FAFB"         # Clean white
+secondaryBackgroundColor = "#E5E7EB"
+textColor = "#0F172A"
+font = "sans serif"

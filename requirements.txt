@@ -1,0 +1,14 @@
+streamlit
+langchain
+langchain-community
+langchain-huggingface
+sentence-transformers
+transformers
+faiss-cpu
+pypdf
+reportlab
+python-dotenv
+torch
+numpy
+pandas
+scikit-learn
