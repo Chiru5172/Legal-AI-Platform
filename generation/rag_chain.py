@@ -25,7 +25,7 @@ def load_llm():
     Load HuggingFace LLM (Flan-T5) safely under LangChain 1.x
     """
 
-    model_name = "google/flan-t5-large"
+    model_name = "google/flan-t5-small"
 
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
