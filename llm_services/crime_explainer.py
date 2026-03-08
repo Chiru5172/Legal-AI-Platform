@@ -20,5 +20,4 @@ def explain_crime(crime_text: str) -> str:
     )
 
     response = llm(prompt)[0]["generated_text"]
-    clean = response.replace(prompt, "").strip()
-    return clean
+    return response
