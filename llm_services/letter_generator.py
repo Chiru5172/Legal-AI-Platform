@@ -90,6 +90,4 @@ Write a clear and professional complaint explanation.
 
     cleaned_text = remove_repetitions(response.strip())
 
-    body = cleaned_text.replace(prompt, "").strip()
-
-    return body
+    return cleaned_text
