@@ -1,8 +1,8 @@
 [theme]
-base = "light"
+base = "dark"
 
-primaryColor = "#1E3A8A"            # Professional legal blue
-backgroundColor = "#F9FAFB"         # Clean white
-secondaryBackgroundColor = "#E5E7EB"
-textColor = "#0F172A"
+primaryColor = "#F0C040"
+backgroundColor = "#050B18"
+secondaryBackgroundColor = "#0D1B2E"
+textColor = "#F1F5F9"
 font = "sans serif"
