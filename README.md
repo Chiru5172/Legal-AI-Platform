@@ -18,6 +18,7 @@ An AI-powered legal research and complaint drafting system using Retrieval-Augme
 - HuggingFace Transformers
 
 Project Structure
+```bash
 legal-ai-platform/
 │
 ├── README.md
